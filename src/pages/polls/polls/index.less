@@ -1,0 +1,23 @@
+.polls {
+  &-wrapper {
+    padding: 20px;
+  }
+}
+
+.poll {
+  &-wrapper {
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0 0.063rem 0.5rem 0 rgba(69, 90, 100, 0.08);
+    cursor: pointer;
+
+    & + .poll-wrapper {
+      margin-top: 15px;
+    }
+  }
+
+  &-item {
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
